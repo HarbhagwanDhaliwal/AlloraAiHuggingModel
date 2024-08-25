@@ -106,8 +106,8 @@ allorad version
 Clone the Hugging Face worker repository:
 
 ```bash
-git clone https://github.com/allora-network/allora-huggingface-walkthrough
-cd allora-huggingface-walkthrough
+git clone https://github.com/HarbhagwanDhaliwal/AloraAiHuggingModel.git
+cd AloraAiHuggingModel
 ```
 
 ### Create Worker Directory
