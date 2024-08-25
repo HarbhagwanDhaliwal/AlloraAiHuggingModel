@@ -2,7 +2,11 @@
 
 # Allora Network Guide 
 
-Welcome to the Allora Network guide! This document provides instructions for setting up your environment, installing necessary dependencies, and running Allora services.
+Welcome to the Allora Network guide! This document is a simple guide for running the Allora Worker node. I've updated the original code to use the `yfinance` Python library for better effectiveness, as the original code relied on the paid CoinGecko API, whereas `yfinance` is free to use. 
+
+We are also using the Hugging Face AI model for price prediction, which is more effective and can help you earn more Allora Points.
+
+If you appreciate my work, please give it a star. Thank you!
 
 ## Table of Contents
 
