@@ -185,6 +185,9 @@ Make the initialization script executable and run it:
 chmod +x init.config
 ./init.config
 ```
+## Faucet Your Worker Node
+
+You can find the offchain worker node's address in ./worker-data/env_file under ALLORA_OFFCHAIN_ACCOUNT_ADDRESS. [Add faucet funds](https://faucet.testnet-1.testnet.allora.network/) to your worker's wallet before starting it.
 
 ## Run Worker Using Docker Compose
 
