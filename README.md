@@ -20,8 +20,9 @@ If you appreciate my work, please give it a star. Thank you!
 8. [Run Hugging Face Worker](#run-hugging-face-worker)
 9. [Edit Configuration Files](#edit-configuration-files)
 10. [Initialize Worker](#initialize-worker)
-11. [Run Worker Using Docker Compose](#run-worker-using-docker-compose)
-12. [View Wallet/Worker Transactions](#view-walletworker-transactions)
+11. [Faucet Your Worker Node](#faucet-your-worker-node)
+12. [Run Worker Using Docker Compose](#run-worker-using-docker-compose)
+13. [View Wallet/Worker Transactions](#view-walletworker-transactions)
 
 ## Install Dependencies
 
