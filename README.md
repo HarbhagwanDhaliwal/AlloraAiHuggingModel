@@ -64,10 +64,18 @@ docker version
 Download and install Docker-Compose:
 
 ```bash
+# Get the latest Docker Compose version
 VER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep tag_name | cut -d '"' -f 4)
-curl -L "https://github.com/docker/compose/releases/download/$VER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-chmod +x /usr/local/bin/docker-compose
+
+# Download Docker Compose binary
+sudo curl -L "https://github.com/docker/compose/releases/download/$VER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+# Make the binary executable
+sudo chmod +x /usr/local/bin/docker-compose
+
+# Verify the installation
 docker-compose --version
+
 ```
 
 ## Docker Permissions
