@@ -207,7 +207,7 @@ You can find the offchain worker node's address in ./worker-data/env_file under 
 Build and run the Docker containers:
 
 ```bash
-docker compose up --build -d
+sudo docker compose up --build -d
 ```
 
 Check logs:
